@@ -5,7 +5,7 @@ CREATE TABLE `weather` (
   `city_id` int(11) NOT NULL,
   `date` date NOT NULL,
   `time` time NOT NULL,
-  `weather_id` int(11) DEFAULT NULL,
+  `weather_id` int(11) NOT NULL,
   `description` tinytext NOT NULL,
   `icon` tinytext NOT NULL,
   `temp` decimal(10,2) NOT NULL,
